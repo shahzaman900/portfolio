@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+  font-family: 'Inter', sans-serif;
+}
+
 h1 {
   font-size: 48px;
   font-weight: 800;
@@ -105,6 +109,6 @@ p {
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background bg-body bg-blend-soft-light text-foreground;
   }
 }

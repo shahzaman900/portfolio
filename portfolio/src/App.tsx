@@ -1,7 +1,6 @@
 import './App.css'
 import Header from './components/header'
 import { ThemeProvider } from './components/theme-provider'
-import { Button } from './components/ui/button'
 
 function App() {
 
