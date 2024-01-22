@@ -2,6 +2,40 @@
 @tailwind components;
 @tailwind utilities;
 
+h1 {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 48px;
+  letter-spacing: -1.2px;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: -0.75px;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: -0.6px;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -0.5px;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+}
 @layer base {
   :root {
     --background: 0 0% 100%;
