@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 body{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
   font-family: 'Inter', sans-serif;
 }
 
@@ -109,6 +113,6 @@ p {
     @apply border-border;
   }
   body {
-    @apply bg-background bg-body bg-blend-soft-light text-foreground;
+    @apply bg-background bg-body bg-blend-overlay text-foreground;
   }
 }
