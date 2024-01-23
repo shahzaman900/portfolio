@@ -1,6 +1,5 @@
 import profile from '../assets/profile.svg'
 import { ModeToggle } from './mode-toggle';
-import { Button } from './ui/button';
 
 function Header() {
   return (
@@ -9,16 +8,16 @@ function Header() {
         <img src={profile} alt="profile"  />
       </div>
       <nav className='flex items-center gap-6 text-sm'>
-        <a href="#" className='transition-colors hover:text-foreground/80 text-foreground/60'>
+        <a href="#" className='transition-colors hover:text-primary text-foreground/60'>
           <span>01.</span> About
         </a>
-        <a href="#" className='transition-colors hover:text-foreground/80 text-foreground/60'>
+        <a href="#" className='transition-colors hover:text-foreground text-foreground/60'>
           <span>02.</span> Projects
         </a>
-        <a href="#" className='transition-colors hover:text-foreground/80 text-foreground/60'>
+        <a href="#" className='transition-colors hover:text-foreground text-foreground/60'>
           <span>03.</span> Experience
         </a>
-        <a href="#" className='transition-colors hover:text-foreground/80 text-foreground/60'>
+        <a href="#" className='transition-colors hover:text-foreground text-foreground/60'>
           <span>04.</span> Contact
         </a>
       </nav>
