@@ -11,13 +11,13 @@ function Header() {
         <a href="#" className='transition-colors hover:text-primary text-foreground/60'>
           <span>01.</span> About
         </a>
-        <a href="#" className='transition-colors hover:text-foreground text-foreground/60'>
+        <a href="#" className='transition-colors hover:text-primary text-foreground/60'>
           <span>02.</span> Projects
         </a>
-        <a href="#" className='transition-colors hover:text-foreground text-foreground/60'>
+        <a href="#" className='transition-colors hover:text-primary text-foreground/60'>
           <span>03.</span> Experience
         </a>
-        <a href="#" className='transition-colors hover:text-foreground text-foreground/60'>
+        <a href="#" className='transition-colors hover:text-primary text-foreground/60'>
           <span>04.</span> Contact
         </a>
       </nav>
