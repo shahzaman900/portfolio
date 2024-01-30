@@ -27,13 +27,13 @@ function Header() {
             <Link to={"about"} ><span>02.</span> About</Link>
           </a>
           <a href="#" className='transition-colors hover:text-primary text-foreground/60'>
-            <span>03.</span> Projects
+            <Link to={'projects'} ><span>03.</span> Projects</Link>
           </a>
           <a href="#" className='transition-colors hover:text-primary text-foreground/60'>
-            <span>04.</span> Experience
+            <Link to={'experience'} ><span>04.</span> Experience</Link>
           </a>
           <a href="#" className='transition-colors hover:text-primary text-foreground/60'>
-            <span>05.</span> Contact
+            <Link to={'contact'} ><span>05.</span> Contact</Link>
           </a>
         </nav>
         <div className='flex gap-4 items-center justify-center'>
