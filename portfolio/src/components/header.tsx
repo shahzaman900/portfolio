@@ -9,6 +9,7 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet"
+import { Link } from 'react-router-dom';
 
 
 function Header() {
@@ -20,16 +21,19 @@ function Header() {
         </div>
         <nav className='items-center gap-6 text-sm hidden md:flex'>
           <a href="#" className='transition-colors hover:text-primary text-foreground/60'>
-            <span>01.</span> About
+            <Link to={"/"} ><span>01.</span> Home</Link>
           </a>
           <a href="#" className='transition-colors hover:text-primary text-foreground/60'>
-            <span>02.</span> Projects
+            <Link to={"about"} ><span>02.</span> About</Link>
           </a>
           <a href="#" className='transition-colors hover:text-primary text-foreground/60'>
-            <span>03.</span> Experience
+            <span>03.</span> Projects
           </a>
           <a href="#" className='transition-colors hover:text-primary text-foreground/60'>
-            <span>04.</span> Contact
+            <span>04.</span> Experience
+          </a>
+          <a href="#" className='transition-colors hover:text-primary text-foreground/60'>
+            <span>05.</span> Contact
           </a>
         </nav>
         <div className='flex gap-4 items-center justify-center'>

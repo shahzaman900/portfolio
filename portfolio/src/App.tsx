@@ -1,22 +1,19 @@
 import './App.css'
-import About from './components/about'
-import Header from './components/header'
-import SocialMedia from './components/socialMedia'
+import { Route, Routes } from 'react-router-dom'
 import { ThemeProvider } from './components/theme-provider'
+import Home from './pages/home'
+import About from './pages/about'
+import Header from './components/header'
 
 function App() {
 
   return (
     <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
-      <div>
-        <Header></Header>
-        <div className='flex flex-row px-24'>
-          <SocialMedia></SocialMedia>
-          <div className='flex flex-1 items-center justify-center'>
-            <About />
-          </div>
-        </div>
-      </div>
+      <Header ></Header>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/about' element={<About />} />
+      </Routes>
     </ThemeProvider>
   )
 }

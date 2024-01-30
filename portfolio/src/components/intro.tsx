@@ -1,4 +1,4 @@
-function About() {
+function Introduction() {
   return (
     <div className=' flex gap-8 flex-col w-3/5 pb-14'>
       <h6 className='text-xl text-foreground/80 pr-2'>Hi, my name is <span className='px-3 py-1 bg-primary rounded text-white'>Shah Zaman</span></h6>
@@ -8,4 +8,4 @@ function About() {
   )
 }
 
-export default About;
+export default Introduction;
