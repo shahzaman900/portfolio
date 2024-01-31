@@ -4,10 +4,15 @@ import SocialMedia from '@/components/socialMedia';
 function Projects() {
   return (
     <>
-      <div className='flex flex-row px-24'>
+      <div className='flex flex-row pl-24 '>
         <SocialMedia></SocialMedia>
-        <div className='flex flex-1 items-center justify-center'>
-          <ProjectCard />
+        <div className='flex flex-col gap-4 p-4 overflow-auto h-dvh'>
+          <div className='flex items-center justify-center flex-wrap gap-4 mb-16'>
+            <ProjectCard />
+            <ProjectCard />
+            <ProjectCard />
+            <ProjectCard />
+          </div>
         </div>
       </div>
     </>
