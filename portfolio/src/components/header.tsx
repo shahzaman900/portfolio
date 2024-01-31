@@ -20,19 +20,19 @@ function Header() {
           <img src={profile} alt="profile" />
         </div>
         <nav className='items-center gap-6 text-sm hidden md:flex'>
-          <a href="#" className='transition-colors hover:text-primary text-foreground/60'>
+          <a href="#" className='transition-colors hover:text-foreground hover:font-medium text-foreground/60'>
             <Link to={"/"} ><span>01.</span> Home</Link>
           </a>
-          <a href="#" className='transition-colors hover:text-primary text-foreground/60'>
+          <a href="#" className='transition-colors hover:text-foreground hover:font-medium text-foreground/60'>
             <Link to={"about"} ><span>02.</span> About</Link>
           </a>
-          <a href="#" className='transition-colors hover:text-primary text-foreground/60'>
+          <a href="#" className='transition-colors hover:text-foreground hover:font-medium text-foreground/60'>
             <Link to={'projects'} ><span>03.</span> Projects</Link>
           </a>
-          <a href="#" className='transition-colors hover:text-primary text-foreground/60'>
+          <a href="#" className='transition-colors hover:text-foreground hover:font-medium text-foreground/60'>
             <Link to={'experience'} ><span>04.</span> Experience</Link>
           </a>
-          <a href="#" className='transition-colors hover:text-primary text-foreground/60'>
+          <a href="#" className='transition-colors hover:text-foreground hover:font-medium text-foreground/60'>
             <Link to={'contact'} ><span>05.</span> Contact</Link>
           </a>
         </nav>
