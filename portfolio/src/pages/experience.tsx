@@ -1,12 +1,23 @@
+import ExperienceComp from '@/components/experienceComp';
 import SocialMedia from '@/components/socialMedia';
+
+// interface Experience {
+//   date: string,
+//   title: string,
+//   company: string,
+//   worklist: string[],
+//   tags: string[]
+// }
+
+
 
 function Experience() {
   return (
     <>
-      <div className='flex flex-row px-24'>
+      <div className='flex flex-row pl-24 '>
         <SocialMedia></SocialMedia>
-        <div className='flex flex-1 items-center justify-center'>
-          <h1>Experience</h1>
+          <div className='flex flex-1 p-4 pt-8 flex-col items-center justify-start gap-8 pb-20 overflow-auto h-dvh'>
+            <ExperienceComp />
         </div>
       </div>
     </>
