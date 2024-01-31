@@ -13,7 +13,7 @@ function AboutMe() {
             quickly learning new languages.</p>
         </div>
         <div>
-          <Button>Get My Resume</Button>
+          <Button variant={'outline'}>Get My Resume</Button>
         </div>
       </div>
     </>
