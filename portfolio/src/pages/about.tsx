@@ -1,3 +1,4 @@
+import AboutMe from '@/components/aboutMe';
 import SocialMedia from '@/components/socialMedia';
 
 function About() {
@@ -6,7 +7,7 @@ function About() {
       <div className='flex flex-row px-24'>
         <SocialMedia></SocialMedia>
         <div className='flex flex-1 items-center justify-center'>
-          <h1>about</h1>
+          <AboutMe></AboutMe>
         </div>
       </div>
     </>
