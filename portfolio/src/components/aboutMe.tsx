@@ -3,7 +3,7 @@ import { Button } from './ui/button';
 function AboutMe() {
   return (
     <>
-      <div className='flex gap-8 flex-col w-3/5 pb-14'>
+      <div className='flex gap-8 flex-col md:w-3/5 w-11/12 pb-14 pt-8'>
         <h1>About me</h1>
         <div className='flex flex-col gap-2'>
           <h6 className='text-xl text-foreground/80 '><span className='text-primary underline underline-offset-4'>I'm Software engineer</span></h6>
