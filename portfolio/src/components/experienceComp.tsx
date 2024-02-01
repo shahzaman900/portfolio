@@ -30,7 +30,7 @@ function ExperienceComp() {
     <>
       {
         experience.map(exp => (
-          <div className='flex gap-8 hover:bg-accent/50 p-8 rounded-md'>
+          <div className='flex md:flex-row flex-col gap-8 hover:bg-accent/50 md:p-8 sm:p-8 p-2 rounded-md'>
             <p className='text-foreground/40'>{exp.date}</p>
             <div>
               <h3>{exp.title}</h3>
@@ -43,7 +43,7 @@ function ExperienceComp() {
                     ))
                   }
                 </ul>
-                <div className='flex gap-4 '>
+                <div className='flex gap-4 flex-wrap'>
                   {
                     exp.tags.map((tag) => (
                       <p className='px-2 py-1 hover:bg-primary hover:text-white rounded-md text-sm border'>{tag}</p>
