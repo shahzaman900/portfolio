@@ -19,7 +19,7 @@ let experience = [
     date: 'May 2018 – Jan 2019',
     title: 'UI Developer | UI/UX Designer',
     company: '+VISION',
-    website: 'https://www.plus-vision.pk/',
+    website: 'https://www.plusvis.com/',
     worklist: [' Implementedadesign system for future projects, ensuring consistency through collaborative development.', 'Fixedbugswithcode, design patterns, and miscellaneous occurrences during the project.'],
     tags: ['Reactjs', 'Postgres', 'Nest js'],
   }
