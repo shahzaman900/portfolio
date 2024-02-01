@@ -15,7 +15,7 @@ import { Link } from 'react-router-dom';
 function Header() {
   return (
     <>
-      <div className='flex items-center justify-between px-24 pt-3 pb-3 border-b-2 border-dotted '>
+      <div className='flex items-center justify-between md:px-24 px-2 pt-3 pb-3 border-b-2 border-dotted '>
         <div className='px-5'>
           <img src={profile} alt="profile" />
         </div>
