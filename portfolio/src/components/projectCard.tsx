@@ -40,7 +40,7 @@ function ProjectCard() {
   return (
     <div className='flex gap-4 flex-wrap justify-center'>
       {projects.map((project, index) => (
-        <div key={index} className='flex flex-col w-[40%] min-w-60 p-4 rounded-md border-2 border-dotted hover:bg-accent/50 gap-4'>
+        <div key={index} className='flex flex-col md:w-[40%] sm:w-[90%] min-w-60 p-4 rounded-md border-2 border-dotted hover:bg-accent/50 gap-4'>
           <div style={{ flex: 1 }}> {/* Use flex: 1 to make the image and content expand vertically */}
             <img className='w-full h-[40dvh] rounded overflow-hidden object-cover' src={project.image} alt="" />
           </div>
