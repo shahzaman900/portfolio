@@ -9,9 +9,6 @@ function Projects() {
         <div className='flex flex-col gap-4 p-4 overflow-auto h-dvh'>
           <div className='flex items-center justify-center flex-wrap gap-4 mb-16'>
             <ProjectCard />
-            <ProjectCard />
-            <ProjectCard />
-            <ProjectCard />
           </div>
         </div>
       </div>

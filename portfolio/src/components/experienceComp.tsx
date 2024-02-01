@@ -1,33 +1,28 @@
-import { Button } from './ui/button';
 let experience = [
   {
     date: 'july 2021 -- present',
     title: 'Full Stack Developer',
     company: 'Cognitive Healthcare International',
+    website: 'https://chi-technologies.com/',
     worklist: ['Optimized5+backend systems, cutting response time by 20%.', 'Managedproject timelines effectively, delivering 100% of projects on schedule, and showcasing strong', 'Guidedjunior developers on development strategies and innovative techniques.'],
     tags: ['Reactjs', 'Postgres', 'Nest js'],
   },
   {
-    date: 'july 2021 -- present',
-    title: 'Full Stack Developer',
-    company: 'Cognitive Healthcare International',
-    worklist: ['Optimized5+backend systems, cutting response time by 20%.', 'Managedproject timelines effectively, delivering 100% of projects on schedule, and showcasing strong', 'Guidedjunior developers on development strategies and innovative techniques.'],
+    date: 'Jan 2019 – Jul 2021',
+    title: 'Front End Developer',
+    company: 'ON2SOL(PVT) LIMITED',
+    website: 'https://www.on2sol.com/',
+    worklist: ['Designedandimplemented a strategic plan, enhancing cohesion and streamlining development.', 'Enhanceddevelopment efficiency by 30%, ensuring timely delivery of new features for future projects.'],
     tags: ['Reactjs', 'Postgres', 'Nest js'],
   },
   {
-    date: 'july 2021 -- present',
-    title: 'Full Stack Developer',
-    company: 'Cognitive Healthcare International',
-    worklist: ['Optimized5+backend systems, cutting response time by 20%.', 'Managedproject timelines effectively, delivering 100% of projects on schedule, and showcasing strong', 'Guidedjunior developers on development strategies and innovative techniques.'],
+    date: 'May 2018 – Jan 2019',
+    title: 'UI Developer | UI/UX Designer',
+    company: '+VISION',
+    website: 'https://www.plus-vision.pk/',
+    worklist: [' Implementedadesign system for future projects, ensuring consistency through collaborative development.', 'Fixedbugswithcode, design patterns, and miscellaneous occurrences during the project.'],
     tags: ['Reactjs', 'Postgres', 'Nest js'],
-  },
-  {
-    date: 'july 2021 -- present',
-    title: 'Full Stack Developer',
-    company: 'Cognitive Healthcare International',
-    worklist: ['Optimized5+backend systems, cutting response time by 20%.', 'Managedproject timelines effectively, delivering 100% of projects on schedule, and showcasing strong', 'Guidedjunior developers on development strategies and innovative techniques.'],
-    tags: ['Reactjs', 'Postgres', 'Nest js'],
-  },
+  }
 ];
 
 function ExperienceComp() {
@@ -39,12 +34,12 @@ function ExperienceComp() {
             <p className='text-foreground/40'>{exp.date}</p>
             <div>
               <h3>{exp.title}</h3>
-              <h5>at<Button variant={'link'}> {exp.company}</Button></h5>
+              <h5>at<a className="text-primary cursor-pointer after:content-['_↗']" href={exp.website} target="_blank"> {exp.company}</a></h5>
               <div className='flex flex-col gap-4'>
                 <ul className='flex gap-2 flex-col'>
                   {
                     exp.worklist.map((list) => (
-                      <li className='text-sm text-foreground/60'>{list}</li>
+                      <li className="text-sm text-foreground/60 before:content-['_※__']">{list}</li>
                     ))
                   }
                 </ul>
